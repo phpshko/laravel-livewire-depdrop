@@ -1,0 +1,27 @@
+{
+    "name": "phpshko/laravel-livewire-depdrop",
+    "description": "Laravel Livewire depdrop component",
+    "authors": [
+        {
+            "name": "Zinchenko Ruslan",
+            "email": "zinchenckoruslan@gmail.com"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^7.3|^8.0",
+        "livewire/livewire": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Phpshko\\LaravelLivewireDepDrop\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Phpshko\\LaravelLivewireDepDrop\\LaravelLivewireDepDropProvider"
+            ]
+        }
+    }
+}
