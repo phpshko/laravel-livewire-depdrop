@@ -7,6 +7,14 @@
             "email": "zinchenckoruslan@gmail.com"
         }
     ],
+    "keywords": [
+        "depdrop",
+        "livewire",
+        "laravel",
+        "laravel-package"
+    ],
+    "type": "library",
+    "homepage": "https://github.com/phpshko/laravel-livewire-depdrop",
     "license": "MIT",
     "require": {
         "php": "^7.3|^8.0",
